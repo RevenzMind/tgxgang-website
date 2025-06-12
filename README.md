@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TGXGang Website
 
-## Getting Started
+<div align="center">
+  <img src="public/gtxganglogo.png" alt="TGXGang Logo" width="200"/>
+  <p><i>Descubre el potencial del exploiting con TGX</i></p>
+</div>
 
-First, run the development server:
+## 📋 Descripción del Proyecto
 
+TGXGang Website es el sitio web oficial para el software TGX, un exploiter para Roblox gratuito y fácil de usar. Este proyecto está desarrollado con Next.js y utiliza Fluent UI y Tailwind CSS para ofrecer una interfaz moderna y atractiva.
+
+## 🌟 Características Principales
+
+- **Diseño Moderno y Responsivo**: Interfaz de usuario atractiva con animaciones y efectos visuales.
+- **Integración con Fluent UI**: Componentes elegantes y consistentes.
+- **Secciones Informativas**: Hero, características del producto y showcases en video.
+- **Optimización SEO**: Estructura optimizada para motores de búsqueda.
+
+## 🚀 Tecnologías Utilizadas
+
+- [Next.js 15](https://nextjs.org) - Framework React con App Router
+- [React 19](https://react.dev) - Biblioteca de interfaces de usuario
+- [Tailwind CSS 4](https://tailwindcss.com) - Framework CSS utility-first
+- [Fluent UI](https://react.fluentui.dev) - Sistema de diseño de Microsoft
+- [TypeScript](https://www.typescriptlang.org) - Superset tipado de JavaScript
+
+## 🛠️ Estructura del Proyecto
+
+```
+src/
+  app/                    # Directorio principal de la aplicación Next.js
+    page.tsx              # Página principal
+    layout.tsx            # Layout principal de la aplicación
+    globals.css           # Estilos globales
+    components/           # Componentes de la aplicación
+      general/            # Componentes generales (header, footer)
+      pages/              # Componentes específicos de páginas
+        landing/          # Componentes de la página principal
+          hero.tsx        # Sección hero con imagen y CTA
+          Features.tsx    # Sección de características principales
+          showcase.tsx    # Sección de videos demostrativos
+public/                   # Archivos estáticos (imágenes, favicon)
+```
+
+## ⚙️ Instalación y Uso
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/tgxgang/tgxgang-website.git
+cd tgxgang-website
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+# o
+pnpm install
+# o
+yarn install
+# o
+bun install
+```
+
+3. Inicia el servidor de desarrollo:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
+# o
 pnpm dev
-# or
+# o
+yarn dev
+# o
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔍 Secciones del Sitio
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Hero Section
+Sección principal con una imagen interactiva del software TGX, un título llamativo y botones de llamada a la acción para descargar el software o acceder a las preguntas frecuentes.
 
-## Learn More
+### 2. Features Section
+Muestra las principales ventajas de TGX:
+- 100% Gratis - Disfruta de scripting premium sin costo
+- Instalación Fácil - Proceso de instalación sencillo
+- Actualizaciones Frecuentes - Mantenimiento constante para asegurar funcionalidad
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Showcase Section
+Colección de videos demostrativos que muestran TGX en acción, con reproducciones de YouTube embebidas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Despliegue
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+El sitio está optimizado para ser desplegado en Vercel, pero puede ser desplegado en cualquier plataforma que soporte Next.js.
 
-## Deploy on Vercel
+```bash
+npm run build
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contribución
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Las contribuciones son bienvenidas. Para cambios importantes, por favor abre primero un issue para discutir lo que te gustaría cambiar.
+
+## 📜 Licencia
+
+Este proyecto está bajo licencia privada y es propiedad de TGXGang.
