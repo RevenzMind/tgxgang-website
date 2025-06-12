@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
    
-      <div className="min-h-screen flex flex-col items-center justify-center relative">
+      <div className={`min-h-screen flex flex-col items-center justify-center relative ${inter.className}`}>
         <div className="fixed -z-10 inset-0 h-full w-full bg-[#131313]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-100%,#1a1a1a,transparent)]"></div>
           <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:32px_32px]"></div>
