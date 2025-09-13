@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model binaries {
+  id             String @id @default(auto()) @map("_id") @db.ObjectId
+  apibinaries    String
+  apidllId       String? @db.ObjectId
+  apidll         apidll? @relation(fields: [apidllId], references: [id])
+  discordinvite  String
+  tgxversion     String
+  website        String
+  workingversion String
+  youtube        String
+}
+
+
+model apidll {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  xeno     String
+  velocity String
+  binaries binaries[]
+}
