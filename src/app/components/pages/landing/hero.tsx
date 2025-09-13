@@ -70,7 +70,7 @@ export default function HeroSection() {
                             size="large"
                             appearance="secondary"
                             as="a"
-                            href="https://discord.tgxgang.xyz/"
+                            href="https://discord.gg/dFe6T9mJKP"
                             target="_blank"
                         >
                             FAQ

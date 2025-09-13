@@ -38,7 +38,7 @@ export default function Header() {
                 </Link>
               </MenuItem>
               <MenuItem>
-                <Link href="https://discord.tgxgang.xyz/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://discord.gg/dFe6T9mJKP" target="_blank" rel="noopener noreferrer">
                   Discord
                 </Link>
               </MenuItem>
@@ -52,7 +52,7 @@ export default function Header() {
         <Link href="https://app.tgx.cat/" target="_blank" rel="noopener noreferrer">
           <Button appearance="primary">Download</Button>
         </Link>
-        <Link href="https://discord.tgxgang.xyz/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://discord.gg/dFe6T9mJKP" target="_blank" rel="noopener noreferrer">
           <Button appearance="">Discord</Button>
         </Link>
         <Button appearance="">FAQ</Button>
